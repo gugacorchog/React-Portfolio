@@ -1,0 +1,137 @@
+/* Universal selector */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Scroll slow when links are select */
+:root {
+    scroll-behavior: smooth;
+  }
+
+/* Conf to Buttom back to top  */
+#back-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+    background-color: grey ;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: 3px solid white;
+    border-radius: 50%;
+    transition-duration: 0.2s;
+   transition-timing-function: ease-in-out;
+   transition-property: back-ground-color, color;
+   z-index: 99;
+
+  }
+ /* changing color of buttom back to top when cursor on top*/
+  #back-to-top-btn:hover, #back-to-top-btn:focus  {
+    background-color: white;
+    color: grey ;
+  }
+
+ #topphoto{
+     width: 1150px;
+ } 
+  
+ .navbar-nav {
+    flex-direction: row !important;
+}
+
+.h1{ color: blanchedalmond;
+margin-left: 10px;
+
+}
+
+p {
+    color: blanchedalmond;
+}
+
+ a {
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, rgba(30, 87, 153, 0.2) 0%, rgba(125, 185, 232, 0) 100%);
+    background-repeat: repeat;
+    border-radius:10px;
+ } 
+
+ a:hover {
+        border: 1px solid white;
+        background-color: lightgrey;
+        color: black;
+ }
+ 
+.btn {
+    color: none;
+    border: none;
+    display: none;
+}
+
+ #contact-me1 {
+    font-size: 15px;
+    font-family: fantasy;
+    width: 80%;
+    color:blanchedalmond;
+    padding: 15px;
+    display: inline-block;
+}   
+
+#contact-me2 {
+    font-size: 15px;
+    font-family: fantasy;
+    width: 50%;
+    color:blanchedalmond;
+    padding: 15px;
+    display: inline-block;
+}   
+#contact-me3 {
+    font-size: 15px;
+    font-family: fantasy;
+    width: 50%;
+    color:blanchedalmond;
+    padding: 15px;
+    display: inline-block;
+}   
+#contact-me4 {
+    font-size: 15px;
+    font-family: fantasy;
+    width: 50%;
+    color:blanchedalmond;
+    padding: 15px;
+    display: inline-block;
+}   
+#contact-me {
+    font-size: 15px;
+    font-family: fantasy;
+    width: 50%;
+    color:blanchedalmond;
+    padding: 15px;
+    display: inline-block;
+}   
+
+
+#title {
+    font-size: 30px;
+    font-family: fantasy;
+    color:blanchedalmond;
+    padding: 15px;
+    display: inline-block; 
+    margin-left: 5%;
+}
+
+#footer{
+    margin-left: 5%;
+}
+
+@media screen  and (max-width: 768px) {
+    body, main, .article, p, .parent {
+    flex-flow: column nowrap;
+    }
+}
+
+
