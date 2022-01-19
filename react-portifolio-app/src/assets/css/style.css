@@ -2,10 +2,6 @@
     scroll-behavior: smooth;
   }
 
-body {
-    background-color: #495057;;
-}
-
 .gvphoto{
     height:50vh;
     position: relative;
@@ -106,7 +102,7 @@ h3 {
 }
 
 @media screen  and (max-width: 768px) {
-    body, main, .article, p, .parent {
+    body {
     flex-flow: column nowrap;
     }
 }
