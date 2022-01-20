@@ -6,8 +6,6 @@ import ContactMe from '../ContactMe';
 import Resume from '../Resume';
 import GVFoto from '../../assets/images/Gustavoed1.jpeg';
 import Gifs from '../GifLayout';
-// import Footer from '../Footer';
-
 
 
 function NavBar({ currentPage, handlePageChange }) {
@@ -16,17 +14,17 @@ function NavBar({ currentPage, handlePageChange }) {
   <div>
     <div>
       <div>
-      <a className="btn" href="#backTop" alt="back to top">
-        <button id="back-to-top-btn"><i className="fas fa-arrow-up"></i></button></a>
-        <div className="card mb-3" id="backTop">  
-      <img className="card-img-top" src={operaHouse} alt="Opera House" />
-      
-        <nav className="navbar navbar-expand navbar-dark nav-bg-color">
+        <a className="btn" id="back-to-top-btn" href="#backTop" alt="back to top">
+          <button id="back-to-top-btn"> <i className="fas fa-arrow-up"></i></button></a>
+          <div className="card mb-3" id="backTop">  
+        <img className="card-img-top" src={operaHouse} alt="Opera House" />
+     
+        <nav className="navbar navbar-expand navbar-dark bg-dark">
           <div className="container-fluid">
-            <p className="navbar-brand font-bold" id="MyName">Gustavo Corchog</p>
+            <p className="navbar-brand navbar-dark font-bold" id="MyName">Gustavo Corchog</p>
           <div className="collapse navbar-collapse d-flex justify-content-end">
             <ul className="navbar-nav">
-            
+           
             <AboutMe text= { AboutMe }></AboutMe>
 
             <Work text= { Work }></Work>
@@ -41,11 +39,11 @@ function NavBar({ currentPage, handlePageChange }) {
         </nav>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div className="gvphpto my-5 my-5">
-            {/* <img className="back-ground-photo" src={GVFoto} alt="#" /> */}
+    <div className="container">
+      <div className="row">
+        <div className="col-12">
+          <div className="gvphoto my-5 my-5">
+            <img className="back-ground-photo" src={GVFoto} alt="#" />
             <img className="front-photo" src={GVFoto} alt="#" />
             </div>
           </div>
@@ -69,6 +67,9 @@ function NavBar({ currentPage, handlePageChange }) {
   <p className="h2" id="Work">Work</p>
   </div>  
       <Gifs text= { Gifs }></Gifs>
+  <br/>
+  <br/>
+  <br/>
   </div>
 
   )

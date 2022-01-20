@@ -24,7 +24,7 @@ function Footer ({ text, classString }){
 
       </ul>
 
-      <footer clclassNamess="d-flex flex-wrap py-3 my-4 border-top">
+      <footer className="d-flex flex-wrap py-3 my-4 border-top">
         <div className="col-md-4 d-flex align-text-bottom">
           <span className="text-muted">© 2021 GVAS Company, Inc</span>
         </div>
