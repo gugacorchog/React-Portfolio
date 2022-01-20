@@ -8,7 +8,7 @@
 
 ![GitPortifolio](https://user-images.githubusercontent.com/87793995/145791389-4feb642d-f483-4f81-8293-7a3c8c51defe.gif)
 
-
+##
 ## Description 
 
 ```md
@@ -16,7 +16,7 @@ AS AN employer looking for candidates with experience building single-page appli
 I WANT to view a potential employee's deployed React portfolio of work samples
 SO THAT I can assess whether they're a good candidate for an open position
 ```
-
+##
 ## Acceptance Criteria
 
 ```md
@@ -46,17 +46,18 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
-
+##
 ## Table of Contents 
 
 - [Live-URL](#Live-URL)
 - [Technologies](#Technologies)
 - [Question](#question) 
 - [LICENSE](#License) 
-
+##
 ## Live-URL
 https://gugacorchog.github.io/Portifolio/index.html
 
+##
 ## Technologies
 
 #### React
