@@ -55,7 +55,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 - [LICENSE](#License) 
 ##
 ## Live-URL
-https://gugacorchog.github.io/Portifolio/index.html
+https://gugacorchog.github.io/React-Portfolio/
 
 ##
 ## Technologies
