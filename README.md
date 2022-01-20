@@ -63,7 +63,8 @@ https://gugacorchog.github.io/Portifolio/index.html
 #### CSS
 #### Bootstrap
 
-## dependencies": {
+##
+## Dependencies
 ####  @testing-library/jest-dom: "^5.16.1",
 ####  @testing-library/react: "^12.1.2",
 ####  @testing-library/user-event: "^13.5.0",
@@ -76,12 +77,15 @@ https://gugacorchog.github.io/Portifolio/index.html
 ####  react-scripts: "5.0.0",
 ####  web-vitals: "^2.1.2"
 
+##
 ## LICENSE
 
 MIT
 
+##
 ## Question
 Questions? Let me know: [E-mail](mailto:gugacorchog@gmail.com)
 
+##
 ## ADD ME ON GITHUB 
 [Gustavo Corchog](https://github.com/gugacorchog)
