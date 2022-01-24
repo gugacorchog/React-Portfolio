@@ -7,6 +7,8 @@ import Resume from '../Resume';
 import GVFoto from '../../assets/images/Gustavoed1.jpeg';
 import Gifs from '../GifLayout';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowUp  } from '@fortawesome/free-solid-svg-icons'
 
 function NavBar({ currentPage, handlePageChange }) {
   return (
@@ -15,7 +17,9 @@ function NavBar({ currentPage, handlePageChange }) {
     <div>
       <div>
         <a className="btn" id="back-to-top-btn" href="#backTop" alt="back to top">
-          <button id="back-to-top-btn"> <i className="fas fa-arrow-up"></i></button></a>
+          <button id="back-to-top-btn"> 
+          <FontAwesomeIcon icon={faArrowUp} />
+          </button></a>
           <div className="card mb-3" id="backTop">  
         <img className="card-img-top" src={operaHouse} alt="Opera House" />
      
