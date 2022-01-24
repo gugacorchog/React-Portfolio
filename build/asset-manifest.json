@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/gugacorchog/React-Portfolio/static/css/main.748a1d99.css",
+    "main.js": "/gugacorchog/React-Portfolio/static/js/main.3735b40d.js",
+    "static/media/Gustavoed1.jpeg": "/gugacorchog/React-Portfolio/static/media/Gustavoed1.e3e79fcb90b9c965f77b.jpeg",
+    "static/media/Receipt.gif": "/gugacorchog/React-Portfolio/static/media/Receipt.bba9108ac9aaafa38237.gif",
+    "static/media/UrReview.gif": "/gugacorchog/React-Portfolio/static/media/UrReview.76a9a53a897537834330.gif",
+    "static/media/Ecommerce.gif": "/gugacorchog/React-Portfolio/static/media/Ecommerce.4c7f3592aa4bf596c183.gif",
+    "static/media/PasswordGen.gif": "/gugacorchog/React-Portfolio/static/media/PasswordGen.c10c02d5a139d5b22032.gif",
+    "static/media/CodeQuiz.gif": "/gugacorchog/React-Portfolio/static/media/CodeQuiz.2b260871267a321e49dd.gif",
+    "static/media/sydney.jpeg": "/gugacorchog/React-Portfolio/static/media/sydney.52e90b47e85a1e677343.jpeg",
+    "static/media/EmployeeDemo.gif": "/gugacorchog/React-Portfolio/static/media/EmployeeDemo.eb7f368df477de141781.gif",
+    "index.html": "/gugacorchog/React-Portfolio/index.html",
+    "main.748a1d99.css.map": "/gugacorchog/React-Portfolio/static/css/main.748a1d99.css.map",
+    "main.3735b40d.js.map": "/gugacorchog/React-Portfolio/static/js/main.3735b40d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.748a1d99.css",
+    "static/js/main.3735b40d.js"
+  ]
+}
